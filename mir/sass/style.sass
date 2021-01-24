@@ -1,0 +1,95 @@
+body
+    background: url("../images/bg/two-gears.gif")
+    min-height: 100vh
+    width: 100%
+
+.container-xl
+    padding: 0!important
+
+.ico
+    cursor: pointer
+    width: 100%
+    max-width: 15px
+
+.header_wrapper, footer div
+    background: linear-gradient(180deg, #313131 1%, #161616 48%);
+
+.header_wrapper
+    .btn-header
+        position: relative
+        input
+            background: #1d1d1d
+            height: 30px
+        button
+            outline: none
+            background: none
+            border: none
+            position: absolute
+            top: 16px
+            left: 0
+            cursor: pointer
+
+nav
+    padding: 0!important
+    .nav-item
+        padding: 0px 10px
+    .active
+        background: #6aaef6
+        .nav-link
+            color: white!important
+
+.bg-blue
+    background: #D3E9F7
+
+.banner
+    min-height: 190px
+    background: url('../images/banner-bg.gif')
+    img
+        max-width: 128px
+
+main
+    .row
+        margin-right: 0px!important
+    .bg
+        min-height: 58vh
+
+.article
+    h3
+        display: inline-block
+        border-bottom: 2px dashed black
+    .links
+            cursor: pointer
+            text-decoration: underline
+            color: #529de4
+
+aside .content
+    width: 250px
+    &:not(:first-child)
+        margin-top: 13px
+    h6
+        font-weight: bold
+    a
+        padding-left: 20px
+        display: block
+        text-decoration: underline
+        &::before
+            content: ""
+            display: inline-block
+            margin-left: -17px
+            background: url("../images/ico/bullet.gif")
+            height: 12px
+            width: 11px
+            margin-right: 5px
+    .RSS
+        border-bottom: 1px dashed black
+            
+
+
+
+@media (max-width: 575px)
+    h6
+        font-size: 15px
+    .banner
+        flex-wrap: wrap
+
+    
